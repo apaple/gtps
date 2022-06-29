@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0",
+    "console-title": "^1.1.0",
+    "discord-webhook-node": "^1.1.8",
+    "express": "^4.18.1",
+    "express-brute": "^1.0.1",
+    "express-rate-limit": "^6.4.0",
+    "fast-ratelimit": "^3.0.0",
+    "helmet": "^5.1.0",
+    "i": "^0.3.7",
+    "limiter": "^2.1.0",
+    "node-rate-limiter": "^1.0.1",
+    "npm": "^8.13.1",
+    "prompt-sync": "^4.2.0",
+    "randomcolor": "^0.6.2",
+    "rate-limit-promise": "^1.0.2",
+    "rate-limiter-flexible": "^2.3.7",
+    "redis": "^4.1.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.1",
+    "stream-limiter": "^0.1.11"
+  }
+}
